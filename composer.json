@@ -1,0 +1,17 @@
+{
+    "name": "onecentlin/bdd-behat-demo",
+    "authors": [
+        {
+            "name": "Quoc"
+        }
+    ],
+    "require": {
+        "behat/behat": "^3.13",
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ocp\\": "src"
+        }
+    }
+}
